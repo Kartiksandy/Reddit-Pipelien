@@ -1,0 +1,182 @@
+id,title,selftext,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1e66tce,Is Hadoop still relevant to the modern Data Engineering world ? ,"Is Hadoop relevant to the modern Data Engineering world, or has it largely been replaced by alternative cloud solutions ? ",42,41,SteffooM,2024-07-18 09:00:01,https://www.reddit.com/r/dataengineering/comments/1e66tce/is_hadoop_still_relevant_to_the_modern_data/,False,False,False,False
+1e6qny1,Can you be a data engineer without knowing advanced coding?,"tl;dr: Can you be a data enginner without coding skills and just use no or low-code tools like Alteryx to do the job?
+
+I've been in analytics and data visualization for well over 10 years. The tools I use every day are Alteryx and Tableau. I'm our department's Alteryx server admin as well as mentor. I help train newbies on Alteryx and Tableau as well. One of the things I enjoy the most about the job is the ETL piece from Alteryx. Just like any part of analytics the hardest part of it is data wrangling piece; which I enjoy quite a bit. BUT, I cannot code to save my life. I can do basic SQL. I had learned SQL right before I learned Alteryx many years ago, so I haven't had to learn advanced SQL becuse Alteryx can do it all in the GUI. I failed C++ twice in college(I'm 44) and have attempted to teach myself Python 3 times in the past 4 years and can't really understand it to do anything sufficient enough to be considered usable for a job. This helps explain why i use Alteryx and Tableau. The other viz tools like Qlik(blaaaahhhhh) and Looker are much more code-heavy.",42,45,csh8428,2024-07-19 00:30:36,https://www.reddit.com/r/dataengineering/comments/1e6qny1/can_you_be_a_data_engineer_without_knowing/,False,False,False,False
+1e6e7mi,How well do you guys understand system design?,"This question is for more experienced data engineers. 
+
+Got asked a few high level questions by some more experienced tech folks. It covered things like multi-threading, message queues, and general system design. 
+
+I have a surface level understanding of a lot of these topics, but most of my time is spent keeping data pipelines operational and developing new pipelines within our companies current architecture. 
+
+Just wanted to ask how ya'll keep up to date, and do you generally see people at companies with a deep knowledge of this stuff?",29,9,Capable-Jicama2155,2024-07-18 15:26:17,https://www.reddit.com/r/dataengineering/comments/1e6e7mi/how_well_do_you_guys_understand_system_design/,False,False,False,False
+1e6px9k,"Jack of all, master of none","Hello, Hope everyone is doing good.
+
+I’m currently working as a Data Engineer ( almost a senior data engineer now ) in a Big 4 consultancy firm for past 2 years. My tech stack is heavily revolved around Microsoft Azure ( Data Factory, Synapse warehouse, Fabric, Data Lakes, SQL databases, Log Analytics ), Databricks, dbt, Azure DevOps ( CICD and git ), and a little bit of PowerBI. 
+
+Over the years, I feel like that I am the jack of all trades aka when there is work I get it done, but I lack in depth understanding of the technology ( master of none ). For example, I know SQL but never used any window, pivot functions up till now so I am not really hands on with it. I’ll be able to build anything from scratch but debugging an error on an existing solution makes me go insane.
+
+I feel like my scope to data engineering tech stack is very limited as well.
+
+Any advices for me on how do I approach this problem and be the master of the underlying tech, and how do I develop more broad business acumen? Please feel free to drop in your suggestions and additional advices you have for me.
+
+Thank you :)",34,48,KeyboaRdWaRRioR1214,2024-07-18 23:54:49,https://www.reddit.com/r/dataengineering/comments/1e6px9k/jack_of_all_master_of_none/,False,False,False,False
+1e6e44m,Azure Synapse,"Curious how many organizations are utilizing Azure Synapse as their EDW / EDL solution. I've spent more of my time working in Snowflake and BigQuery, but as Microsoft continues to expand their offerings, I'm curious if there is a big draw towards the Microsoft Stack. It seems like they are generally lagging behind some of the other big players in the space, but are gaining momentum.",18,30,dra_9624,2024-07-18 15:22:11,https://www.reddit.com/r/dataengineering/comments/1e6e44m/azure_synapse/,False,False,False,False
+1e68qpq,Need Help designing DWH Schema,"Hello everyone, I'm currently doing my first internship as a data engineer and been building this pipeline that would ingest banking data from a transactional bank DB, clean it and then load it into a DWH for analysis and machine learning(analysing loans, transactions and clients behaviour) later and I'm stuck, need help, deciding on the schema I should use for the DWH.
+
+this is the current Data schema : 
+
+I would like to know what would you do if you were in my place, or what you did if you have done something similar before.
+
+https://preview.redd.it/jpv864lqe9dd1.png?width=910&format=png&auto=webp&s=011419f159c95cdc73c7c6d63bf2757b2136fbe9
+
+",9,6,Electronic_Battle876,2024-07-18 11:07:43,https://www.reddit.com/r/dataengineering/comments/1e68qpq/need_help_designing_dwh_schema/,False,False,False,False
+1e6h64u,Add more features to ML/RAG with a Snowflake Schema Data Model,"In real-time ML applications and for RAG, access to entity IDs enables you to retrieve precomputed features/rows of data.   
+  
+What if you're building a real-time credit card fraud ML model and your online application only has the credit card number?   
+You would like to also use attributes of the user's account, the merchant account, the credit card issuer, but you don't have the entity IDs (primary keys) to retrieve those features.
+
+This article describes our journey to be the first feature store to add support for the Snowflake Schema Data Model and how you can now have better models with more precomputed features.
+
+Reference [https://www.hopsworks.ai/post/the-journey-from-star-schema-to-snowflake-schema-in-the-feature-store](https://www.hopsworks.ai/post/the-journey-from-star-schema-to-snowflake-schema-in-the-feature-store)",10,0,jpdowlin,2024-07-18 17:33:53,https://www.reddit.com/r/dataengineering/comments/1e6h64u/add_more_features_to_mlrag_with_a_snowflake/,False,False,False,False
+1e672v5,Where can I learn more about building a proper data architecture?,"Hey everyone,
+
+  
+I'm a junior data engineer in charge of implementing the medallion architecture in Fabric for our company. Our company install sensors for temperature, CO2 readings, etc in multiple buildings. We fetch this data and then summarize it through dashboards for our clients. At the moment, we stream this data into Azure Digital Twins and then into Azure Data Explorer. 
+
+I have to plan how we want to do this integration, but Fabric has so many options that it stuns me a little, with so many costs, storage and copying options. I would like to understand more of the positive and negatives of the options I have, but everytime I google these questions, everytime I check Microsoft's website, I feel like I leave with more questions than answers.
+
+  
+For those of you who had to do theses kind of tasks, how did you manage? Any advice is more than welcome!
+
+ ",6,2,tryingnewhabits,2024-07-18 09:19:01,https://www.reddit.com/r/dataengineering/comments/1e672v5/where_can_i_learn_more_about_building_a_proper/,False,False,False,False
+1e6f6l1,Just realized that dbt doesn't parse comments correctly,"Or maybe it is intended?
+
+I have two lines after WHERE:
+
+WHERE
+
+    -- {{ source () }}
+
+    {{ ref()  }}
+
+Somehow dbt keep hitting the first line (the source one) without recognizing that it is commented out. Did I miss anything?",5,6,levelworm,2024-07-18 16:09:18,https://www.reddit.com/r/dataengineering/comments/1e6f6l1/just_realized_that_dbt_doesnt_parse_comments/,False,False,False,False
+1e6dt0i,Modeling data to maintain historical record states,"I work in an industry (higher ed) that requires reporting on specific days of the year. For instance on the 15th day of the semester, we need a report that represents what the data looked like on that day. One of our departments uses an 'old school' method of exporting the results of a large query and then keeping those exports forever so that they can compare this 15th day data semester over semester, year over year.  There are other seemingly random dates that the users like to compare as well. So the solution has been to export this data every day, and keep the exports forever.
+
+The query in question essentially exports the current registration status of every student. So the number of rows grows pretty fast.
+
+We're trying to re-implement this process in our data lake using 'modern' techniques. At a basic level we're trying to move to a fact / dimension based model instead of a single, wide table.  But we're struggling to find a way to move away from the 'create a record every day for every student forever' approach.
+
+At first I felt that a periodic snapshot fact table would be the right approach, but it seems that they are more geared towards capturing aggregate metrics on a periodic basis. Where what we need is a representation of every student every day.  It kinda feels like we want a type 2 fact - that way we could reduce the number of rows by only creating new ones when something changes for the student.
+
+Any suggestions on what I can research for this problem? I'm even struggling to find the right terms to google.",5,4,FjordSnorkeler,2024-07-18 15:09:52,https://www.reddit.com/r/dataengineering/comments/1e6dt0i/modeling_data_to_maintain_historical_record_states/,False,False,False,False
+1e6r5no,Query Snowflake Iceberg tables with DuckDB & Spark to Save Costs,,4,0,Buremba,2024-07-19 00:55:35,https://buremba.com/blog/use-snowflake-and-duckdb-with-iceberg,False,False,False,False
+1e6t9sy,Turn offs and Turn ons in personal projects? ,"I just want to make something somewhat close to what a data engineer would be doing. I know the scale and complexity of a personal beginner project and an actual project are worlds apart, but I would like to NOT make noobie mistakes/practices that might make me look bad. 
+
+Here’s what I’m working on for more context: Pull top x trending videos info daily from Youtube API and store in postgres. Eventually want to transform and send the data to a dashboard.
+
+Using python for scripting, dbt for data transformation. Will use airflow to execute this every day. Everything is inside docker containers. Any suggestions?
+",3,1,HarvesterOfReveries,2024-07-19 02:44:35,https://www.reddit.com/r/dataengineering/comments/1e6t9sy/turn_offs_and_turn_ons_in_personal_projects/,False,False,False,False
+1e6pfo4,DBT or Homebrew custom CI/CD Solution,"Hi All, 
+
+I'm a data scientist/data analyst at a mid-sized corporation (< 10k employees). Our company uses snowflake as it's main repository for structured data. I work on a small analytics team, one of several at the company. 
+
+Currently, we have no way to develop code in a development environment and ship to a separate production environment. We only have a production database, and no CI/CD tool to speak off. 
+
+That worked fine until recently when I realized that I was developing and shipping code in the same environment, which was causing issues. I realized that we needed a CI/CD tool if we wanted to do things correctly and avoid shipping code with bugs in it. 
+
+So I went off and attempted to design a custom CI/CD solution for our team. I thought it would be relatively simple to wrangle something up using python scripts and Github actions, but the complexity quickly caught up to me, and I'm realizing I likely bit off more than I can chew. I'm not a data engineer, and CI/CD was a completely foreign concept to me up until about 3 weeks ago (as my work until recently only involved creating views on top of data, not modifying data tables themselves).
+
+I'm not sure what other teams do for their CI/CD processes, if they are doing anything. I've put out a question to them, and I'll see what they say. 
+
+I think the right solution is to use a tool like dbt, however dbt cloud is prohibitively expensive (at $100/user/month, with 8 users on our team, we're already over budget). 
+
+I was wondering if anyone had any suggestions for solutions? We're looking for a tool that can help us isolate a production and development environment, track changes to each environment, and version control, at the minimum. 
+
+  
+Thanks - 
+
+  
+",3,13,nazstat,2024-07-18 23:31:58,https://www.reddit.com/r/dataengineering/comments/1e6pfo4/dbt_or_homebrew_custom_cicd_solution/,False,False,False,False
+1e6ep7i,Dataiku and DBT,"Hello Everyone, 
+
+I am locked into an environment with Snowflake as my computing engine and Dataiku to be my ELT, scheduler, AI ML OPs, and AI model development area. It's been working fine for some preliminary ELT loads and meeting the AI needs. 
+
+We have a small number of raw tables, under 20, with all the datasets being small except one, the largest table will be 8 million rows a day, which we will load every hour. About half of our transformations are in SQL, either written or using Dataikus ""no code"" GUI, and the other half is in Python. We will build out a bronze/silver/gold layer that our ""data scientists"" can query. At this time, we expect little growth in the number of tables.
+
+We have someone in the company pushing hard to put in DBT for the transformation side. I have never used DBT, but I understand the benefits. Ideally, we would stand up DBT core in a Snowflake container service (getting any help on the infrastructure side is painful, don't ask).   
+Testing, maybe version control and schema changes are the only big reasons I can think of adding DBT vs what Dataiku has out of the box. Dataiku can handle these scenarios ok from my understanding. 
+
+My question. Why would I add DBT to this?
+
+
+
+Thank you for your insight. ",3,4,Illustrious-Goal-355,2024-07-18 15:46:35,https://www.reddit.com/r/dataengineering/comments/1e6ep7i/dataiku_and_dbt/,False,False,False,False
+1e6egyp,Learning Groovy as a DE,"I am a DE but I have been asked to learn Groovy to contribute on the DevOps front as well. I wanted to know if other DEs have also ended up doing DevOps work while working as a ""DE"". Is this a common experience among other Data Engineers? Any recommended resources or learning paths that worked for you?",3,3,throwaway_6942021253,2024-07-18 15:37:10,https://www.reddit.com/r/dataengineering/comments/1e6egyp/learning_groovy_as_a_de/,False,False,False,False
+1e6dtu6,Sales Ops --> Data Engineer at same company?,"Hi Guys,
+
+Im starting a sales ops associate role (6 month contract but chance to extend) in a couple of weeks.
+
+For some context I studied comp sci at uni, became a SDR for 1 year before getting tired of that & landing this role.
+
+Part of the reason I took this role is because in the interviews, I stated my goal of becoming a data engineer within the next couple of years and they convinced me that the company would help me make that move even though this role has nothing to do with data engineering. This is on the basis that I show initiative in connecting with the data team and if the need for a DE opens up in the future.
+
+If you guys were in this position, what things would you do in order to maximise your chances of landing a junior DE role, be it at this company or another one.
+
+Im thinking to connect with the data team, learn their tech stack in my free time and to do some side projects - would this be a good idea or would you suggest a different strategy?
+
+Thanks in advance!",3,2,Information-Famous,2024-07-18 15:10:44,https://www.reddit.com/r/dataengineering/comments/1e6dtu6/sales_ops_data_engineer_at_same_company/,False,False,False,False
+1e6dk33,Learn Azure Functions Python V2,,3,1,1085alt0176C,2024-07-18 15:00:03,https://www.youtube.com/watch?v=I-kodc4bs4I,False,False,False,False
+1e6xls2,DE Requirements,"I know
+- Advanced Python
+- Advanced SQL
+- Distributed Compute
+- Big Query
+
+My question to experienced DEs is that at some point, do I need to learn Javascript. I always work to fetching/posting data from APIs but haven't really built one on Javascript etc. So is it necessary for me learn it? Asking because now I want to progress further in my career. What new skills should I learn which are important to become a senior Data Engineer. 
+
+Would appreciate if Well experienced, senior Data Engineers reply to this post.
+
+Thanks,",2,1,Logical_Way_5936,2024-07-19 07:05:00,https://www.reddit.com/r/dataengineering/comments/1e6xls2/de_requirements/,False,False,False,False
+1e6wf4h,Incremental Data Load in ADF,"I recently started using ADF(Azure Data Factory) for creating pipelines. I am using Tumbling Window trigger to trigger my pipeline and using a custom logic in it using the start and end time of the window for Incremental Data Load( only processing the newly added files since the last pipeline run). Is it the optimal way to do Incremental Data Load in ADF and if not then is there any other way people do it in general?
+
+What techniques do u guys use for the same?",2,0,Effective-Tie-3149,2024-07-19 05:47:48,https://www.reddit.com/r/dataengineering/comments/1e6wf4h/incremental_data_load_in_adf/,False,False,False,False
+1e6dcmm,Pipeline design flow ,I need to propose  design flow and get approvals before I begin dev work. What would be a good tool (like visio) to use to present the pipeline flow at a high level.  Looking for something easier to use. Thank you. ,2,2,Complex_Ad_8473,2024-07-18 14:51:19,https://www.reddit.com/r/dataengineering/comments/1e6dcmm/pipeline_design_flow/,False,False,False,False
+1e6bvml,Separating Administration from Engineering team,"Hello,
+
+Is it a good idea to separate the Administration of the cloud platforms from the development team using the platform for data ingestion, Data transformation ETL, ELT, etc? I feel both of those are interdependent and have a large impact. the major tasks for administration on cloud platforms are mainly managing cost and performance and security that are based on the development happening. both areas will be at a disadvantage.. does anyone have this working well? what are the challenges you run into and how do you manage them?",2,2,PreparationScared835,2024-07-18 13:47:46,https://www.reddit.com/r/dataengineering/comments/1e6bvml/separating_administration_from_engineering_team/,False,False,False,False
+1e6xy1q,How do you handle messy data from customers?,"There's a common issue across many organisations where user/customer entered data has to be cleaned, validated and processed into a warehouse. The target table in the warehouse is of course well defined, but the 'schema' of the source is a mess. The source files are often human readable - think ProductCode, product\_code. \[prod code\] as a tiny example, but is there something that can automatically map the columns as required. 
+
+To make things interesting the columns will move around, in that some customers will send the data with columns in different order. Is there a tool or achitecture that can handle that kind of vairable input? I wrote one a while back in C# and it worked pretty well, but I don't want to have to go down that route again. 
+
+BTW The data itself will come as csv, xlsx, txt, maybe even .accdb. 
+
+Any products to take away that pain?",1,3,MrTelly,2024-07-19 07:28:09,https://www.reddit.com/r/dataengineering/comments/1e6xy1q/how_do_you_handle_messy_data_from_customers/,False,False,False,False
+1e6x721,Stored Procedure vs Script in Github,"Hi everyone, 
+
+At my workplace we use MariaDB as a primary database. Currently there were existing stored procedure that do the transformation when data gets into the database. 
+
+However, I have concerns about the version controlling of the stored procedure. Therefore, the solution I came up with was to store these procedure on Github, and use AWS lambda to execute these procedure. 
+
+May I know is this a good idea? Are they any reasons or scenarios where Stored Procedure is preferred over using python to execute SQL statements?",1,0,yiternity,2024-07-19 06:38:07,https://www.reddit.com/r/dataengineering/comments/1e6x721/stored_procedure_vs_script_in_github/,False,False,False,False
+1e6s3jy,The Data-Related “Red Flags” All Organisations Should Be Aware Of (And How To Avoid Them),,1,1,teheditor,2024-07-19 01:43:29,https://smbtech.au/thought-leadership/the-data-related-red-flags-all-organisations-should-be-aware-of-and-how-to-avoid-them/,False,False,False,False
+1e6s33v,Data Contracts in Action: Testing,,1,0,Pitah7,2024-07-19 01:42:51,https://medium.com/@pflooky/data-contracts-in-action-testing-111631338657?sk=8cea6c4e08a48d7e123b07b3e6a27713,False,False,False,False
+1e6dx5i,Data discover,I’m trying to map one of our application databases but I’m get lost in the process. How do you go about data discover and map it out without getting lost?,1,2,Timmybee,2024-07-18 15:14:32,https://www.reddit.com/r/dataengineering/comments/1e6dx5i/data_discover/,False,False,False,False
+1e6ukam,Data engineers who deal with unstructured data I need your help!,"I'm building a new unstructured data engine, my cofounder and I call this ""Snowflake"" but for unstructured data. 
+
+**This tool is still very early, so I like to hear feedback from data friends.** Basically, it
+
+- can be pointed to S3 location where unstructured files like docs, images, videos etc are lived
+
+- has an SQL interface to query files in S3 location (see below)
+
+- In the UI, you can configure LLM agents that take various input types. For example, if you were to classify some metadata like is\_horror\_movie from videos, you can roughly do something like this
+
+`SELECT EXTRACT(<agent_id>, video) FROM videos;`
+
+- In the UI, you can configure a semantic search index. Together with conventional SQL search, you can do pretty interesting hybrid SQL search query: 
+
+`SELECT photo FROM photos WHERE photo LIKE 'golden gate bridge' AND date = '2023-11-13';`
+
+**For those who start to think about using Gen AI to deal with unstructured data, how are you planning to do it?**",0,6,No_Communication2618,2024-07-19 03:55:53,https://www.reddit.com/r/dataengineering/comments/1e6ukam/data_engineers_who_deal_with_unstructured_data_i/,False,False,False,False
+1e6vdob,No Bullshit BI,,0,0,sbalnojan,2024-07-19 04:42:51,https://www.thdpth.com/p/no-bullshit-bi,False,False,False,False
