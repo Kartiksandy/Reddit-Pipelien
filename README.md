@@ -1,4 +1,7 @@
 # Introduction
+
+![RedditDataEngineering](https://github.com/user-attachments/assets/8899c7c3-9690-4199-b40a-97a3adb1da27)
+
 This project focuses on constructing a data pipeline that extracts data from Reddit and processes it using various AWS services. The architecture is designed to be both scalable and cost-effective, leveraging tools like Apache Airflow, AWS S3, AWS Glue, and AWS Redshift. The goal is to automate data extraction, transformation, and loading (ETL) processes while ensuring the data is easily accessible for analysis.
 
 # System Architecture
